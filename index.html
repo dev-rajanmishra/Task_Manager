@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Task Manager</title>
+</head>
+
+  <div class="utility">   
+    <div class="priorityColor">
+      <div class="box red"></div>
+      <div class="box blue"></div>
+      <div class="box green"></div>
+      <div class="box black"></div>
+    </div>
+    <div class="control">
+      <span class="delete"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26"
+          fill="currentColor">
+          <path
+            d="M17 4H22V6H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V6H2V4H7V2H17V4ZM9 9V17H11V9H9ZM13 9V17H15V9H13Z">
+          </path>
+        </svg></span>
+      <span class="add"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26"
+          fill="currentColor">
+          <path
+            d="M12.4142 5H21C21.5523 5 22 5.44772 22 6V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V4C2 3.44772 2.44772 3 3 3H10.4142L12.4142 5ZM11 12H8V14H11V17H13V14H16V12H13V9H11V12Z">
+          </path>
+        </svg></span>
+      <span class="all"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="26" height="26"
+          fill="currentColor">
+          <path
+            d="M12.9998 3L12.9996 10.267L19.294 6.63397L20.294 8.36602L14.0006 11.999L20.294 15.634L19.294 17.366L12.9996 13.732L12.9998 21H10.9998L10.9996 13.732L4.70557 17.366L3.70557 15.634L9.99857 12L3.70557 8.36602L4.70557 6.63397L10.9996 10.267L10.9998 3H12.9998Z">
+          </path>
+        </svg></span>
+    </div>
+    <div class="search">
+      <div class="searchBar">
+        <input type="text" class="inputserach  inputStyle" placeholder="search">
+        <span class="mag"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+            fill="currentColor">
+            <path
+              d="M18.031 16.6168L22.3137 20.8995L20.8995 22.3137L16.6168 18.031C15.0769 19.263 13.124 20 11 20C6.032 20 2 15.968 2 11C2 6.032 6.032 2 11 2C15.968 2 20 6.032 20 11C20 13.124 19.263 15.0769 18.031 16.6168ZM16.0247 15.8748C17.2475 14.6146 18 12.8956 18 11C18 7.1325 14.8675 4 11 4C7.1325 4 4 7.1325 4 11C4 14.8675 7.1325 18 11 18C12.8956 18 14.6146 17.2475 15.8748 16.0247L16.0247 15.8748Z">
+            </path>
+          </svg></span>
+      </div>
+      <button type="button" class="srcbtn">Search</button>
+    </div>
+  </div>
+  <div class="ticketAdder noDisplay"> 
+      
+      <textarea class="textPart"  id="abc" placeholder="Write Here.." ></textarea>
+    <div class="ticketPriorityColor">
+      <div class="box red border"></div>
+      <div class="box blue "></div>
+      <div class="box green "></div>
+      <div class="box black "></div>
+    </div>
+  </div>
+
+  <div class="ticketContainer">
+    <!--**************************************************-->
+    <!-- <div class="ticket">
+      <div class="colorBar"></div>
+      <div class="inputArea">
+        <p>Rajan Mishra</p>
+        <span class="lockIcon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+            fill="currentColor">
+            <path
+              d="M18 8H20C20.5523 8 21 8.44772 21 9V21C21 21.5523 20.5523 22 20 22H4C3.44772 22 3 21.5523 3 21V9C3 8.44772 3.44772 8 4 8H6V7C6 3.68629 8.68629 1 12 1C15.3137 1 18 3.68629 18 7V8ZM16 8V7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7V8H16ZM7 11V13H9V11H7ZM7 14V16H9V14H7ZM7 17V19H9V17H7Z">
+            </path>
+          </svg></span>
+      </div>
+    </div> -->
+
+    <!--*************************************************-->
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
